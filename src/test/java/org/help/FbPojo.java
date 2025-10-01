@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
-import org.un.FbPojoAccount;
 
 public class FbPojo extends Baseclass{
 
