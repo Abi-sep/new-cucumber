@@ -19,9 +19,9 @@ public class CreateNewPara extends Baseclass{
 		FbPojonew f=new FbPojonew();
 		f.getFirstName().sendKeys(firstname);
 		f.getLastname().sendKeys(lastname);
-		selectText(f.getDay(), date);
-		selectText(f.getMonth(), month);
-		selectText(f.getYear(), year);
+	//	selectText(f.getDay(), date);
+	//	selectText(f.getMonth(), month);
+	//	selectText(f.getYear(), year);
 		f.getEmail().sendKeys(email);
 		f.getPaswrd().sendKeys(paswrd);
 		

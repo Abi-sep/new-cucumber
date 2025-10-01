@@ -10,12 +10,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.DateUtil;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+//import org.apache.poi.ss.usermodel.Cell;
+//import org.apache.poi.ss.usermodel.DateUtil;
+//import org.apache.poi.ss.usermodel.Row;
+//import org.apache.poi.ss.usermodel.Sheet;
+//import org.apache.poi.ss.usermodel.Workbook;
+//import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -98,7 +98,7 @@ public static void scrollTo(WebElement element) {
 	((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 	
 }
-public static String xlDataFetch(String loc,String sheetname,int rowno,int cellno) throws IOException {
+/*public static String xlDataFetch(String loc,String sheetname,int rowno,int cellno) throws IOException {
 	
 	File f=new File(loc);
 	
@@ -151,7 +151,7 @@ public static void selectText(WebElement element, String month) {
 	select=new Select(element);
 	select.selectByVisibleText(month);
 
-}
+}*/
 public void screenShot(String name) throws IOException {
 tk=(TakesScreenshot)driver;
 File src = tk.getScreenshotAs(OutputType.FILE);

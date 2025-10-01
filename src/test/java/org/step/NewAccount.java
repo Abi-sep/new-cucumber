@@ -44,9 +44,9 @@ public class NewAccount extends Baseclass{
 		String Day = dob.get(0).get(0);   
 		String month = dob.get(0).get(1);  
 		 String year = dob.get(0).get(2);
-		selectText(f.getDay(),Day);
-		selectText(f.getMonth(),month);
-		selectText(f.getYear(), year);
+	//	selectText(f.getDay(),Day);
+	//	selectText(f.getMonth(),month);
+	//	selectText(f.getYear(), year);
 	}
 	@Then("Take screenshot")
 	public void takeScreenshot() throws IOException {
